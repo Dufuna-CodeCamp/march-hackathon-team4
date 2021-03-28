@@ -1,0 +1,66 @@
+    /* form */
+.submitNews {
+    padding: 40px 50px 30px;
+    background-color: #f1f1f1;
+}
+.NewsForm {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin: auto;
+    width: 65%;
+}
+.form-intro {
+    text-align: center;
+}
+.form-field {
+    margin-top: 20px;
+}
+.form-field .form-item {
+    margin-bottom: 20px;
+}
+.form-item label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+.form-item label:last-child {
+    display: inline;
+}
+.form-item [type=text] {
+    width: 100%;
+    padding: 15px 20px;
+    outline: none;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+textarea {
+    margin-top: 15px;
+    resize: none;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+.form-item input[type=file] {
+    display: none;
+}
+.file-upload {
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.form-field [type=submit] {
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #63c2de;
+    color: #fff;
+}
+
+@media (max-width: 48em) {
+    .NewsForm {
+        width: 100%;
+    }
+}
