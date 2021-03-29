@@ -140,13 +140,13 @@ aside {
     font-size: 28px;
     padding: 50px 0 15px 0;
 }
-figure h6{
+figure h6 {
+    margin-bottom: 10px;
+}
+.headlines a{
+    text-decoration: none;
     font-size: 24px;
     color: #63c2de;
-    
-}
-.headlines{
-     text-decoration: none;
 }
 /* politics */
 .section-1{
@@ -154,7 +154,8 @@ figure h6{
 }
 /* addvert */
 .ads{
-    padding-left: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .container-1{
   position: relative;
