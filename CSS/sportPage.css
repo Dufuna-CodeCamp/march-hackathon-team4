@@ -40,8 +40,6 @@
 }
 
 
-
-
 @media (max-width: 48em) {
     #lastest-news{
         order: 2;
@@ -74,3 +72,39 @@
     width: 95%;
     height: 100%;
   }
+
+
+    /* sport-page1 */
+.sport-details figure {
+    margin-bottom: 20px;
+}
+.sport-details  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.full-sport-news p {
+    margin-bottom: 20px;
+}
+.share-news button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+.share-news .fab {
+    font-size: 15px;
+}
+.share-news .facebook {
+    background-color: #3B5998;
+}
+.share-news .twitter {
+    background-color: #1da1f2;
+ }
+.share-news .telegram {
+    background-color: #0088cc;
+}
+.share-news .whatsapp {
+    background-color: #4dc247;
+}
+
